@@ -1,0 +1,9 @@
+{
+  "type": "record",
+  "name": "PessoaDTO",
+  "namespace": "br.com.barbosa.example.entity",
+  "fields": [
+    {"name": "name", "type": "string"},
+    {"name": "sobrenome", "type": "string"}
+  ]
+}
