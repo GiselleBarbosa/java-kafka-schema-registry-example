@@ -3,7 +3,7 @@
   "name": "PessoaDTO",
   "namespace": "br.com.barbosa.example.entity",
   "fields": [
-    {"name": "name", "type": "string"},
+    {"name": "nome", "type": "string"},
     {"name": "sobrenome", "type": "string"}
   ]
 }
