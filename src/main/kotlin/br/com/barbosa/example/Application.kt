@@ -15,7 +15,7 @@ class JavaKafkaSchemaRegistryExampleApplication(
 
     override fun run(args: ApplicationArguments?) {
         val pessoa = Pessoa("Giselle", "Barbosa")
-
+        Thread.sleep(7000)
         pessoaProducerImpl.enviarMensagem(UUID.randomUUID().toString(), pessoa);
     }
 }
